@@ -19,7 +19,7 @@ int i;
 for(i=0;i<10;i++) 
 { 
 printf("Plase enter the score:\n"); 
-scanf("%f\n",&Score[i]); 
+scanf("%f",&Score[i]); 
 } 
 c=Average(Score); 
 printf("the average score is %.1f\n",c);
